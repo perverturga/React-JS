@@ -1,0 +1,69 @@
+.App {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background: #0000ff;
+    color: white;
+}
+
+.navDiv {
+    position: relative;
+}
+
+.itemsIcon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.itemsDiv {
+    border-radius: 50%;
+    /*50% verdiğimizde tam olarak yuvarlak bi daire alırız*/
+    background-color: white;
+    color: black;
+    width: 20px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+.cardClearButton{
+    padding: 10px;
+    border:none;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.cardItem {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+
+.cardInfo {
+    text-align: right;
+}
+
+.cardQuantity {
+    margin-right:8px;
+}       
+
+.cardQuantityButton {
+    border:none;
+    background-color: white;
+}
+
+.cardDeleteButton {
+    padding: 10px;
+    border:none;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    margin-top: 50px;
+}
